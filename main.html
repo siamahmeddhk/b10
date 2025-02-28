@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <!-- links -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main>
+     <section>
+
+
+
+
+      
+     </section>
+        <!-- nav sesh but sticky kora hoynaiy -->
+
+        <section>
+            <nav class="flex justify-between items-center pt-6 py-6 bg-slate-100">
+                <button class="bg-green-500 md:font-bold p-4 rounded-md text-sm">Blog</button>
+                <div class="flex flex-col md:flex-row md:gap-2 items-center justify-center mx-auto">
+                    <img src="assets/logo.png" alt="">
+                    <h1 class="font-bold md:text-2xl text-sm">Donate Bangladesh</h1>
+                </div>
+                <div class="flex md:flex-row flex-col gap-2 items-center">
+                    <img src="assets/coin.png" alt="">
+                    <h1 class="text-sm md:text-2xl" id="mainbalance">5500BDT</h1>
+                </div>
+            </nav>
+        </section>
+
+
+        <div class="flex justify-center items-center gap-2">
+          <button id="toggle1" class=" md:p-6 p-1 border-2 border-black rounded-md">Donation</button>
+          <button id="toggle2" class=" md:p-6 p-1 border-2 border-black rounded-md">History</button>
+        </div>
+        <!-- nav sesh but sticky kora hoynaiy -->
+
+        <section>
+
+            <!-- cards -->
+
+            <div id="card">
+<!-- card1 -->
+                <div id="c1" class=" mt-8 card w-4/5 mx-auto lg:card-side bg-base-100 shadow-xl md:p-2">
+                    <figure>
+                      <img
+                        src="assets/feni.png"
+                        alt="Album" />
+                    </figure>
+                    <div class="card-body md:w-1/2">
+                        <div class="md:w-1/4 flex items-center p-4 bg-slate-200 text-black rounded-lg gap-4">
+                            <img src="assets/coin.png" alt="">
+                            <h1 id="cardAddedBalance" class="text-black">
+                                0 BDT
+                            </h1>
+                        </div>
+                        
+                      <h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+                      <p class=""> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+                      
+                      <div class="card-actions justify-normal">
+                        <input id="cardinput" class="border-2 border-black p-2 rounded-md w-full" type="text" placeholder="Write Donation Ammount">
+
+
+
+                        <button onclick="modal()" id="cardbtn" class="btn btn-primary w-full bg-green-500">Donate</button>
+
+
+
+                      </div>
+                    </div>
+                  </div>
+<!-- modal -->
+
+<!-- modal -->
+          
+<!-- card1 -->
+
+<!-- card2 -->
+
+<div class=" mt-8 card w-4/5 mx-auto lg:card-side bg-base-100 shadow-xl md:p-2">
+  <figure>
+    <img
+      src="assets/noakhali.png"
+      alt="Album" />
+  </figure>
+  <div class="card-body md:w-1/2">
+      <div class="md:w-1/4 flex items-center p-4 bg-slate-200 text-black rounded-lg gap-4">
+          <img src="assets/coin.png" alt="">
+          <h1 id="cardAddedBalance2" class="text-black">
+              0 BDT
+          </h1>
+      </div>
+      
+    <h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+    <p class=""> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+    
+    <div class="card-actions justify-normal">
+      <input id="cardinput2" class="border-2 border-black p-2 rounded-md w-full" type="text" placeholder="Write Donation Ammount">
+     <button id="cardbtn2" class="btn btn-primary w-full bg-green-500">Donate</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- card2 -->
+
+<!-- card3 -->
+
+<div class=" mt-8 card w-4/5 mx-auto lg:card-side bg-base-100 shadow-xl md:p-2">
+  <figure>
+    <img
+      src="assets/quota-protest.png"
+      alt="Album" />
+  </figure>
+  <div class="card-body md:w-1/2">
+      <div class="md:w-1/4 flex items-center p-4 bg-slate-200 text-black rounded-lg gap-4">
+          <img src="assets/coin.png" alt="">
+          <h1 id="cardAddedBalance3" class="text-black">
+              0 BDT
+          </h1>
+      </div>
+      
+    <h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+    <p class=""> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+    
+    <div class="card-actions justify-normal">
+      <input id="cardinput3" class="border-2 border-black p-2 rounded-md w-full" type="text" placeholder="Write Donation Ammount">
+     <button id="cardbtn3" class="btn btn-primary w-full bg-green-500">Donate</button>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- card3 -->
+
+
+
+            <!-- cards -->
+
+        </section>
+
+
+        <section class="mt-12 h-screen" id="history">
+          <h1 class="text-3xl text-center font-bold">History</h1>
+        </section>
+    </main>
+
+
+  
+    <script src="utilty/utility.js"></script>
+    <script src="script/card.js"></script>
+    <script src="script/toggle.js"></script>
+    
+</body>
+</html>
